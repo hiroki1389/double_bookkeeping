@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4BF6D9272C33A61F0085A441 /* double_bookkeepingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6D9262C33A61F0085A441 /* double_bookkeepingApp.swift */; };
 		4BF6D9292C33A61F0085A441 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6D9282C33A61F0085A441 /* ContentView.swift */; };
 		4BF6D92B2C33A6200085A441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF6D92A2C33A6200085A441 /* Assets.xcassets */; };
 		4BF6D92E2C33A6200085A441 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF6D92D2C33A6200085A441 /* Preview Assets.xcassets */; };
 		4BF6D9382C33A6200085A441 /* double_bookkeepingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6D9372C33A6200085A441 /* double_bookkeepingTests.swift */; };
 		4BF6D9422C33A6200085A441 /* double_bookkeepingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6D9412C33A6200085A441 /* double_bookkeepingUITests.swift */; };
 		4BF6D9442C33A6200085A441 /* double_bookkeepingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6D9432C33A6200085A441 /* double_bookkeepingUITestsLaunchTests.swift */; };
+		4BF6D9532C33A6EC0085A441 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6D9522C33A6EC0085A441 /* Account.swift */; };
+		4BF6D9552C33A7050085A441 /* BookkeepingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6D9542C33A7050085A441 /* BookkeepingData.swift */; };
+		4BF6D9582C33A7380085A441 /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6D9572C33A7380085A441 /* AccountListView.swift */; };
+		4BF6D95A2C33A7500085A441 /* AddJounalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6D9592C33A7500085A441 /* AddJounalEntryView.swift */; };
+		4BF6D95C2C33A7770085A441 /* DoubleBookkeepingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6D95B2C33A7770085A441 /* DoubleBookkeepingApp.swift */; };
+		4BF6D95E2C33A7A30085A441 /* EditJournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6D95D2C33A7A30085A441 /* EditJournalEntryView.swift */; };
+		4BF6D9602C33A7B60085A441 /* EditMemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6D95F2C33A7B60085A441 /* EditMemoView.swift */; };
+		4BF6D9622C33A7CB0085A441 /* JournalEntriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6D9612C33A7CB0085A441 /* JournalEntriesListView.swift */; };
+		4BF6D9642C33A7DE0085A441 /* MonthlySummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6D9632C33A7DE0085A441 /* MonthlySummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +43,6 @@
 
 /* Begin PBXFileReference section */
 		4BF6D9232C33A61F0085A441 /* double_bookkeeping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = double_bookkeeping.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BF6D9262C33A61F0085A441 /* double_bookkeepingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = double_bookkeepingApp.swift; sourceTree = "<group>"; };
 		4BF6D9282C33A61F0085A441 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4BF6D92A2C33A6200085A441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BF6D92D2C33A6200085A441 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +51,15 @@
 		4BF6D93D2C33A6200085A441 /* double_bookkeepingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = double_bookkeepingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF6D9412C33A6200085A441 /* double_bookkeepingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = double_bookkeepingUITests.swift; sourceTree = "<group>"; };
 		4BF6D9432C33A6200085A441 /* double_bookkeepingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = double_bookkeepingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BF6D9522C33A6EC0085A441 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		4BF6D9542C33A7050085A441 /* BookkeepingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookkeepingData.swift; sourceTree = "<group>"; };
+		4BF6D9572C33A7380085A441 /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
+		4BF6D9592C33A7500085A441 /* AddJounalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJounalEntryView.swift; sourceTree = "<group>"; };
+		4BF6D95B2C33A7770085A441 /* DoubleBookkeepingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleBookkeepingApp.swift; sourceTree = "<group>"; };
+		4BF6D95D2C33A7A30085A441 /* EditJournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJournalEntryView.swift; sourceTree = "<group>"; };
+		4BF6D95F2C33A7B60085A441 /* EditMemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMemoView.swift; sourceTree = "<group>"; };
+		4BF6D9612C33A7CB0085A441 /* JournalEntriesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntriesListView.swift; sourceTree = "<group>"; };
+		4BF6D9632C33A7DE0085A441 /* MonthlySummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlySummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +110,7 @@
 		4BF6D9252C33A61F0085A441 /* double_bookkeeping */ = {
 			isa = PBXGroup;
 			children = (
-				4BF6D9262C33A61F0085A441 /* double_bookkeepingApp.swift */,
+				4BF6D9512C33A6E10085A441 /* Scripts */,
 				4BF6D9282C33A61F0085A441 /* ContentView.swift */,
 				4BF6D92A2C33A6200085A441 /* Assets.xcassets */,
 				4BF6D92C2C33A6200085A441 /* Preview Content */,
@@ -125,6 +141,30 @@
 				4BF6D9432C33A6200085A441 /* double_bookkeepingUITestsLaunchTests.swift */,
 			);
 			path = double_bookkeepingUITests;
+			sourceTree = "<group>";
+		};
+		4BF6D9512C33A6E10085A441 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				4BF6D9522C33A6EC0085A441 /* Account.swift */,
+				4BF6D9542C33A7050085A441 /* BookkeepingData.swift */,
+				4BF6D9562C33A7270085A441 /* Views */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		4BF6D9562C33A7270085A441 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4BF6D95B2C33A7770085A441 /* DoubleBookkeepingApp.swift */,
+				4BF6D9572C33A7380085A441 /* AccountListView.swift */,
+				4BF6D9592C33A7500085A441 /* AddJounalEntryView.swift */,
+				4BF6D9612C33A7CB0085A441 /* JournalEntriesListView.swift */,
+				4BF6D9632C33A7DE0085A441 /* MonthlySummaryView.swift */,
+				4BF6D95D2C33A7A30085A441 /* EditJournalEntryView.swift */,
+				4BF6D95F2C33A7B60085A441 /* EditMemoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +297,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BF6D95E2C33A7A30085A441 /* EditJournalEntryView.swift in Sources */,
+				4BF6D95A2C33A7500085A441 /* AddJounalEntryView.swift in Sources */,
+				4BF6D9582C33A7380085A441 /* AccountListView.swift in Sources */,
 				4BF6D9292C33A61F0085A441 /* ContentView.swift in Sources */,
-				4BF6D9272C33A61F0085A441 /* double_bookkeepingApp.swift in Sources */,
+				4BF6D9602C33A7B60085A441 /* EditMemoView.swift in Sources */,
+				4BF6D9642C33A7DE0085A441 /* MonthlySummaryView.swift in Sources */,
+				4BF6D95C2C33A7770085A441 /* DoubleBookkeepingApp.swift in Sources */,
+				4BF6D9622C33A7CB0085A441 /* JournalEntriesListView.swift in Sources */,
+				4BF6D9532C33A6EC0085A441 /* Account.swift in Sources */,
+				4BF6D9552C33A7050085A441 /* BookkeepingData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
